@@ -12,7 +12,7 @@ libraryDependencies += javaWs' > /app/build.sbt && \
 
 mkdir /app/project && \
 
-echo $'addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.5.13") \n\
+echo $'addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.5.14") \n\
 addSbtPlugin("com.typesafe.sbt" % "sbt-play-ebean" % "3.1.0") \n\
 addSbtPlugin("com.typesafe.sbt" % "sbt-coffeescript" % "1.0.0") \n\
 addSbtPlugin("com.typesafe.sbt" % "sbt-less" % "1.1.0") \n\
@@ -25,7 +25,7 @@ addSbtPlugin("com.typesafe.sbt" % "sbt-play-enhancer" % "1.1.0") \n\
 addSbtPlugin("com.typesafe.sbt" % "sbt-native-packager" % "1.2.0-M7") \n\
 libraryDependencies += "org.javassist" % "javassist" % "3.20.0-GA"' > /app/project/plugins.sbt && \
 
-echo "sbt.version=0.13.13" > /app/project/build.properties && \
+echo "sbt.version=0.13.15" > /app/project/build.properties && \
 
 cd /app && sbt package && \
 
