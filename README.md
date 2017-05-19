@@ -1,10 +1,10 @@
 Docker image which provides a sbt 0.13.13, designed to launch play applications 2.5.13
 
 # Contains:
-* Oracle Java 8.121
-* sbt 0.13.13 with dependencies
-* play framework v2.5.13 dependencies
-* Alpine Linux 3.5.2
+* Oracle Java
+* sbt
+* play framework v2.5.15 dependencies
+* Alpine Linux
 
 # Play framework dependencies
 

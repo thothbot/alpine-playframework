@@ -12,7 +12,7 @@ libraryDependencies += javaWs' > /app/build.sbt && \
 
 mkdir /app/project && \
 
-echo $'addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.5.14") \n\
+echo $'addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.5.15") \n\
 addSbtPlugin("com.typesafe.sbt" % "sbt-play-ebean" % "3.1.0") \n\
 addSbtPlugin("com.typesafe.sbt" % "sbt-coffeescript" % "1.0.0") \n\
 addSbtPlugin("com.typesafe.sbt" % "sbt-less" % "1.1.0") \n\
